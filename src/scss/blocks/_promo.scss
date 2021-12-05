@@ -1,0 +1,82 @@
+.promo {
+  padding-bottom: 103px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.menu-item-first a {
+  color: #f25822;
+}
+
+.homepage-content {
+  max-width: 522px;
+  width: 100%;
+}
+
+.homepage-title {
+  font-size: 59px;
+  line-height: 70px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.homepage-text {
+  font-size: 22px;
+  line-height: 23px;
+  color: #888888;
+  margin: 20px 0 37px;
+}
+
+.content-buttons {
+  align-items: center;
+  display: flex;
+  column-gap: 27px;
+}
+.start-btn {
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+}
+
+.watch-btn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #dddddd;
+  border-radius: 50%;
+  position: relative;
+}
+
+.watch-btn img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-video {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.content-video > p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+  font-weight: 800;
+}
+
+.homepage-bg {
+  position: absolute;
+  top: -115px;
+  right: -271px;
+}

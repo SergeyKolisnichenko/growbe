@@ -1,0 +1,68 @@
+.team {
+  padding: 86px 0 100px;
+  text-align: center;
+}
+
+.team-title {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 500;
+}
+.team-text {
+  margin: 12px 0 52px;
+  font-size: 16px;
+}
+
+.team-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item {
+  width: 270px;
+  height: 331px;
+  border: 1px solid #eeeeee;
+  padding: 50px 0;
+  &:hover {
+    box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.team-item-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 97px;
+  margin: 0 auto;
+}
+
+.social-icon {
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.team-item-name {
+  font-size: 20px;
+
+  font-weight: 500;
+  color: #000000;
+  margin-top: 14px;
+}
+
+.team-item-job {
+  font-size: 13px;
+  margin-bottom: 17px;
+}
+
+.social-icon-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-icon-orange {
+  background: #f25822;
+}

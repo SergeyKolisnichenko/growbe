@@ -1,0 +1,35 @@
+.about-us {
+  background: #fafafa url(../../icons/element.svg) center center/cover no-repeat;
+  padding: 120px 0 144px;
+  position: relative;
+}
+
+.about-us-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-content {
+  width: 515px;
+}
+
+.about-us-title {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 35px;
+}
+
+.about-us-btn {
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  width: 140px;
+  height: 50px;
+}

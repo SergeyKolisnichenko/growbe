@@ -1,0 +1,42 @@
+.statistics {
+  padding: 100px 0;
+}
+
+.statistics-wrapper {
+  width: 1170px;
+  height: 200px;
+  border: 2px solid #eeeeee;
+  padding: 43px 66px 42px 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistic-item {
+  height: 115px;
+  text-align: center;
+}
+
+.statistic-item-number {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.statistic-item-text {
+  font-size: 18px;
+}
+
+.statictic-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  &-orange {
+    background: #f3602d;
+  }
+  &-green {
+    background: #149211;
+  }
+  &-yellow {
+    background: #ffc700;
+  }
+}
